@@ -1,0 +1,104 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+	<!-- 
+	/*
+	 *	This content is generated from the API File Info.
+	 *	(Alt+Shift+Ctrl+I).
+	 *
+	 *	@desc 		
+	 *	@file 		intro
+	 *	@date 		Sunday 06th of November 2022 09:05:16 AM
+	 *	@title 		Page 1
+	 *	@author 	
+	 *	@keywords 	
+	 *	@generator 	Export Kit v1.3.figma
+	 *
+	 */
+	-->
+	<ScrollView android:id="@+id/completereceipt" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+
+
+
+
+
+
+
+
+			<RelativeLayout android:id="@+id/page_completereceipt_ek1"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View   android:id="@+id/_bg__completereceipt_ek2"
+					android:background="@drawable/_bg__completereceipt_ek2_shape"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="323dp"
+					android:layout_height="361dp" />
+
+				<View
+					android:id="@+id/rectangle_57_ek3"
+					android:layout_width="323dp"
+					android:layout_height="361dp"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:background="@drawable/rectangle_57_ek3_shape" />
+
+				<TextView android:id="@+id/completed_receipt_registration__"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="13sp"
+					android:textColor="@color/babygage_color"
+					android:layout_marginLeft="60dp"
+					android:layout_marginTop="107dp"
+					android:layout_width="213dp"
+					android:layout_height="68.5dp"
+					android:text="@string/completed_receipt_registration___string"
+					 />
+
+				<View   android:id="@+id/rectangle_49_ek4"
+					android:background="@drawable/rectangle_49_ek4_shape"
+					 android:layout_marginStart="50dp"
+					android:layout_marginTop="281dp"
+					android:layout_width="225dp"
+					android:layout_height="39dp" />
+
+				<TextView android:id="@+id/ok_ek1"
+					android:textStyle="bold"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="12sp"
+					android:textColor="@color/babygage_color"
+					android:layout_marginLeft="95dp"
+					android:layout_marginTop="292dp"
+					android:layout_width="142dp"
+					android:layout_height="26dp"
+					android:text="@string/ok_ek1_string"
+					 />
+
+				<ImageView android:id="@+id/cancel_1_ek1"
+					android:src="@drawable/cancel_1_ek1"
+					android:contentDescription="cancel_1_ek1"
+					 android:layout_marginStart="292dp"
+					android:layout_marginTop="13dp"
+					android:layout_width="20dp"
+					android:layout_height="20dp" />
+
+			</RelativeLayout>
+
+
+
+
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>

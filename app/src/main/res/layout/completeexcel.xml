@@ -1,0 +1,105 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+	<!-- 
+	/*
+	 *	This content is generated from the API File Info.
+	 *	(Alt+Shift+Ctrl+I).
+	 *
+	 *	@desc 		
+	 *	@file 		intro
+	 *	@date 		Sunday 06th of November 2022 09:05:16 AM
+	 *	@title 		Page 1
+	 *	@author 	
+	 *	@keywords 	
+	 *	@generator 	Export Kit v1.3.figma
+	 *
+	 */
+	-->
+	<ScrollView android:id="@+id/completeexcel" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+
+
+
+
+
+
+
+
+			<RelativeLayout android:id="@+id/page_completeexcel_ek1"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View   android:id="@+id/_bg__completeexcel_ek2"
+					android:background="@drawable/_bg__completeexcel_ek2_shape"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="323dp"
+					android:layout_height="361dp" />
+
+				<View   android:id="@+id/rectangle_57_ek2"
+					android:background="@drawable/rectangle_57_ek2_shape"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="323dp"
+					android:layout_height="361dp" />
+
+				<TextView android:id="@+id/converted_to_excel_file_"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="13sp"
+					android:textColor="@color/babygage_color"
+					android:layout_marginLeft="82dp"
+					android:layout_marginTop="115dp"
+					android:layout_width="160dp"
+					android:layout_height="31.5dp"
+					android:text="@string/converted_to_excel_file__string"
+					 />
+
+				<View   android:id="@+id/_rectangle_49_ek3"
+					android:background="@drawable/_rectangle_49_ek3_shape"
+					 android:layout_marginStart="50dp"
+					android:layout_marginTop="281dp"
+					android:layout_width="225dp"
+					android:layout_height="39dp" />
+
+				<TextView android:id="@+id/ok"
+					android:textStyle="bold"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="12sp"
+					android:textColor="@color/babygage_color"
+					android:layout_marginLeft="95dp"
+					android:layout_marginTop="292dp"
+					android:layout_width="142dp"
+					android:layout_height="26dp"
+					android:text="@string/ok_string"
+					 />
+
+				<ImageView android:id="@+id/cancel_1"
+					android:src="@drawable/cancel_1"
+					android:contentDescription="cancel_1"
+					 android:layout_marginStart="292dp"
+					android:layout_marginTop="13dp"
+					android:layout_width="20dp"
+					android:layout_height="20dp" />
+
+			</RelativeLayout>
+
+
+
+
+
+
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>
