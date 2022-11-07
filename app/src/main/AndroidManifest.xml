@@ -29,10 +29,8 @@
 			<activity android:name="com.example.babygage.financial_audit_activity"></activity>
 			<activity android:name="com.example.babygage.completeexcel_activity"></activity>
 			<activity android:name="com.example.babygage.completereceipt_activity"></activity>
-			<activity android:name="com.example.babygage.sign_up_activity"></activity>
-			<activity android:name="com.example.babygage.successful_sign_up_activity"></activity>
-			<activity android:name="com.example.babygage.log_in_activity"></activity>
-			<activity android:name="com.example.babygage.takepicture_activity"></activity>
+		<activity android:name="com.example.babygage.successful_sign_up_activity"></activity>
+        <activity android:name="com.example.babygage.takepicture_activity"></activity>
 			<activity android:name="com.example.babygage.receipt_activity"></activity>
 	</application>
 
