@@ -1,4 +1,4 @@
-<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
 	android:layout_width="match_parent" android:layout_height="wrap_content" >
 	<!-- 
 	/*
@@ -15,9 +15,6 @@
 	 *
 	 */
 	-->
-	<ScrollView android:id="@+id/intro_select" 
-		android:layout_width="wrap_content" 
-		android:layout_height="match_parent" >
 
 		<RelativeLayout android:id="@+id/content_container" 
 			android:layout_width="wrap_content" 
@@ -28,16 +25,17 @@
 			<RelativeLayout android:id="@+id/page_intro_select_ek1"
 				android:layout_marginTop="0dp"
 				android:layout_marginStart="0dp"
-				android:layout_width="wrap_content"
+				android:layout_width="match_parent"
 				android:layout_height="wrap_content"
 				>
 
-				<View   android:id="@+id/_bg__intro_select_ek2"
-					android:background="@drawable/_bg__intro_select_ek2_shape"
-					 android:layout_marginStart="0dp"
-					android:layout_marginTop="0dp"
+				<View
+					android:id="@+id/_bg__intro_select_ek2"
 					android:layout_width="390dp"
-					android:layout_height="844dp" />
+					android:layout_height="844dp"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:background="@drawable/_bg__intro_select_ek2_shape" />
 
 				<View   android:id="@+id/rectangle_3"
 					android:background="@drawable/rectangle_3_shape"
@@ -185,5 +183,4 @@
 
 		</RelativeLayout>
 
-	</ScrollView>
-</HorizontalScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
