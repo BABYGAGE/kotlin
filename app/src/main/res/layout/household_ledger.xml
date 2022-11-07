@@ -36,12 +36,13 @@
 				android:layout_height="wrap_content"
 				>
 
-				<View   android:id="@+id/_bg__household_ledger_ek7"
-					android:background="@drawable/_bg__household_ledger_ek7_shape"
-					 android:layout_marginStart="0dp"
-					android:layout_marginTop="0dp"
+				<View
+					android:id="@+id/_bg__household_ledger_ek7"
 					android:layout_width="390dp"
-					android:layout_height="844dp" />
+					android:layout_height="844dp"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:background="@drawable/_bg__household_ledger_ek7_shape" />
 
 				<View   android:id="@+id/rectangle_1_ek4"
 					android:background="@drawable/rectangle_1_ek4_shape"
@@ -352,24 +353,25 @@
 					android:text="@string/upload_ek4_string"
 					 />
 
-				<View   android:id="@+id/rectangle_31_ek3"
-					android:background="@drawable/rectangle_31_ek3_shape"
-					 android:layout_marginStart="0dp"
-					android:layout_marginTop="0dp"
+				<View
+					android:id="@+id/rectangle_31_ek3"
 					android:layout_width="390dp"
-					android:layout_height="72dp" />
+					android:layout_height="72dp"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:background="@drawable/rectangle_31_ek3_shape" />
 
-				<TextView android:id="@+id/arrow_back_ek4"
+				<TextView
+					android:id="@+id/arrow_back_ek4"
+					android:layout_width="wrap_content"
+					android:layout_height="40dp"
 					android:layout_gravity="center_horizontal|center"
-					android:gravity="center"
-					android:textSize="20sp"
-					android:textColor="@color/babygage_color"
 					android:layout_marginLeft="4dp"
 					android:layout_marginTop="37dp"
-					android:layout_width="45dp"
-					android:layout_height="44dp"
+					android:gravity="center"
 					android:text="@string/arrow_back_ek4_string"
-					 />
+					android:textColor="@color/babygage_color"
+					android:textSize="20sp" />
 
 
 				<RelativeLayout android:id="@+id/group_17_ek2"
