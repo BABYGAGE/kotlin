@@ -118,7 +118,7 @@ public class mainpage_household_activity extends Activity {
 	public void onCreate(Bundle savedInstanceState) {
 
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.mainpage_household);
+		setContentView(R.layout.activity_householdmain);
 
 		
 		_bg__mainpage_household_ek2 = (View) findViewById(R.id._bg__mainpage_household_ek2);
