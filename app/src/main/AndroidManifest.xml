@@ -19,8 +19,7 @@
 			</intent-filter>
 		</activity>
 
-			<activity android:name="com.example.babygage.intro_select_activity"></activity>
-			<activity android:name="com.example.babygage.mainpage_household_activity"></activity>
+        <activity android:name="com.example.babygage.mainpage_household_activity"></activity>
 			<activity android:name="com.example.babygage.mainpage_financial_activity"></activity>
 			<activity android:name="com.example.babygage.mypage_household_activity"></activity>
 			<activity android:name="com.example.babygage.mypage_financial_activity"></activity>
