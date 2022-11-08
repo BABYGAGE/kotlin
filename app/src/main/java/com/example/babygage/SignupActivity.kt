@@ -4,13 +4,13 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
-import com.example.babygage.databinding.ActivityLoginBinding
+import com.example.babygage.databinding.ActivitySignupBinding
 
 class SignupActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        var binding: ActivityLoginBinding
-        binding = ActivityLoginBinding.inflate(layoutInflater)
+        var binding: ActivitySignupBinding
+        binding = ActivitySignupBinding.inflate(layoutInflater)
 
         setContentView(binding.root)
 

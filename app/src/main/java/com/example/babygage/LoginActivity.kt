@@ -21,7 +21,7 @@ class LoginActivity : AppCompatActivity() {
 
 
         binding.loginbtn.setOnClickListener {
-            val nextScreen = Intent(applicationContext, intro_select_activity::class.java)
+            val nextScreen = Intent(applicationContext, IntroselectionActivity::class.java)
             startActivity(nextScreen)
         }
     }
