@@ -254,13 +254,14 @@
 					android:text="@string/settings_string"
 					 />
 
-				<ImageView android:id="@+id/vector_ek5"
-					android:src="@drawable/vector_ek5"
-					android:contentDescription="vector_ek5"
-					 android:layout_marginStart="99dp"
-					android:layout_marginTop="773dp"
+				<ImageView
+					android:id="@+id/vector_ek5"
 					android:layout_width="31dp"
-					android:layout_height="34dp" />
+					android:layout_height="34dp"
+					android:layout_marginStart="99dp"
+					android:layout_marginTop="773dp"
+					android:contentDescription="vector_ek5"
+					android:src="@drawable/vector_ek5" />
 
 				<View   android:id="@+id/rectangle_5"
 					android:background="@drawable/rectangle_5_shape"
