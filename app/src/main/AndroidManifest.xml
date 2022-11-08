@@ -10,6 +10,15 @@
             android:name=".FinancialmainActivity"
             android:exported="false" />
         <activity
+            android:name=".HouseholdmainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MypageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TakepictureActivity"
+            android:exported="false" />
+        <activity
             android:name=".intro_activity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:exported="true"
@@ -20,7 +29,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".intro_select_activity" />
+        <activity android:name=".IntroselectionActivity" />
         <activity android:name=".mypage_financial_activity" />
         <activity android:name=".household_ledger_activity" />
         <activity android:name=".writingdiary_activity" />
