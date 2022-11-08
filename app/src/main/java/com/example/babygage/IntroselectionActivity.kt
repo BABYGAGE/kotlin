@@ -17,12 +17,12 @@ class IntroselectionActivity : AppCompatActivity() {
 
 
         binding.householdbtn.setOnClickListener{
-            val nextScreen = Intent(applicationContext, mainpage_household_activity::class.java)
+            val nextScreen = Intent(applicationContext, HouseholdmainActivity::class.java)
             startActivity(nextScreen)
         }
 
         binding.financialbtn.setOnClickListener{
-            val nextScreen = Intent(applicationContext, mainpage_financial_activity::class.java)
+            val nextScreen = Intent(applicationContext, FinancialmainActivity::class.java)
             startActivity(nextScreen)
         }
     }
