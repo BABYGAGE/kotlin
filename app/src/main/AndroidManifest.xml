@@ -21,16 +21,12 @@
             </intent-filter>
         </activity>
         <activity android:name=".intro_select_activity" />
-        <activity android:name=".mainpage_household_activity" />
-        <activity android:name=".mainpage_financial_activity" />
-        <activity android:name=".mypage_household_activity" />
         <activity android:name=".mypage_financial_activity" />
         <activity android:name=".household_ledger_activity" />
         <activity android:name=".writingdiary_activity" />
         <activity android:name=".financial_audit_activity" />
         <activity android:name=".completeexcel_activity" />
         <activity android:name=".completereceipt_activity" />
-        <activity android:name=".takepicture_activity" />
         <activity android:name=".receipt_activity" />
     </application>
 

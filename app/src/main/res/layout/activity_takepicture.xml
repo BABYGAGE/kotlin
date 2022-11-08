@@ -1,0 +1,321 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/page_takepicture_ek1"
+	android:layout_marginTop="0dp"
+	android:layout_marginStart="0dp"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<View
+		android:id="@+id/_bg__takepicture_ek2"
+		android:layout_width="match_parent"
+		android:layout_height="844dp"
+		android:background="@drawable/_bg__takepicture_ek2_shape"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent" />
+	<!-- this is fixed bottom bar-->
+
+	<LinearLayout
+		android:id="@+id/rectangle_1_ek1"
+		android:layout_width="match_parent"
+		android:layout_height="83dp"
+		android:paddingTop="5dp"
+		android:background="@drawable/rectangle_1_ek1_shape"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintHorizontal_bias="0.0"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		app:layout_constraintVertical_bias="1.0"
+		android:orientation="horizontal" >
+
+		<Button
+			android:id="@+id/mypageBtn"
+			android:layout_width="39dp"
+			android:layout_height="40dp"
+			android:layout_marginStart="36dp"
+			android:background="@drawable/person_outline" />
+
+		<Button
+			android:id="@+id/householdBtn"
+			android:layout_width="38dp"
+			android:layout_height="40dp"
+			android:layout_marginLeft="34dp"
+			android:layout_marginEnd="124dp"
+			android:contentDescription="vector_ek5"
+			android:background="@drawable/vector_ek5"
+
+			app:layout_constraintBottom_toTopOf="@+id/household_ledger_ek2"
+			app:layout_constraintEnd_toStartOf="@+id/financial_btn"
+			app:layout_constraintHorizontal_bias="0.493"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toTopOf="@+id/rectangle_1_ek1"
+			app:layout_constraintVertical_bias="0.0" />
+
+		<Button
+			android:id="@+id/financialBtn"
+			android:layout_width="27dp"
+			android:layout_height="40dp"
+			android:layout_marginLeft="-5dp"
+			android:background="@drawable/vector_ek17" />
+
+		<Button
+			android:id="@+id/settingsBtn"
+			android:layout_width="42dp"
+			android:layout_height="41dp"
+			android:layout_marginLeft="40dp"
+			android:background="@drawable/vector_ek18"
+			app:layout_constraintEnd_toEndOf="@+id/rectangle_1_ek1"
+			app:layout_constraintHorizontal_bias="0.907"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toTopOf="parent" />
+	</LinearLayout>
+
+	<TextView
+		android:id="@+id/mypage_ek1"
+		android:layout_width="75dp"
+		android:layout_height="31dp"
+		android:layout_gravity="center_horizontal|center"
+		android:layout_marginLeft="11dp"
+		android:layout_marginTop="820dp"
+		android:gravity="center"
+		android:text="@string/mypage_ek1_string"
+		android:textColor="@color/_bg__intro_ek2_color"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintEnd_toStartOf="@+id/household_ledger_ek2"
+		app:layout_constraintHorizontal_bias="1.0"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		app:layout_constraintVertical_bias="0.875" />
+
+
+
+	<TextView
+		android:id="@+id/household_ledger_ek2"
+		android:layout_width="74dp"
+		android:layout_height="36dp"
+		android:layout_gravity="center_horizontal|center"
+		android:gravity="center"
+		android:text="@string/household_ledger_ek2_string"
+		android:textColor="@color/_bg__intro_ek2_color"
+		app:layout_constraintEnd_toStartOf="@+id/financial_audit_ek2"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintHorizontal_bias="0.522"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintVertical_bias="1.0" />
+
+	<TextView
+		android:id="@+id/financial_audit_ek2"
+		android:layout_width="57dp"
+		android:layout_height="30dp"
+		android:layout_gravity="center_horizontal|center"
+		android:layout_marginLeft="245dp"
+		android:layout_marginEnd="10dp"
+		android:gravity="center"
+		android:text="@string/financial_audit_ek2_string"
+		android:textColor="@color/_bg__intro_ek2_color"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintEnd_toStartOf="@+id/settings_ek1"
+		app:layout_constraintHorizontal_bias="0.924"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		app:layout_constraintVertical_bias="0.993" />
+
+
+
+	<TextView
+		android:id="@+id/settings_ek1"
+		android:layout_width="74dp"
+		android:layout_height="36dp"
+		android:layout_gravity="center_horizontal|center"
+		android:layout_marginTop="852dp"
+		android:gravity="center"
+		android:text="@string/settings_ek1_string"
+		android:textColor="@color/_bg__intro_ek2_color"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintHorizontal_bias="0.949"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent" />
+
+	<View
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:background="@drawable/rectangle_31_shape"
+		app:layout_constraintBottom_toBottomOf="@+id/group_7_ek1"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent" />
+
+
+	<RelativeLayout
+		android:id="@+id/group_7_ek1"
+		android:layout_marginTop="17dp"
+		android:layout_marginStart="123dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		app:layout_constraintTop_toTopOf="parent"
+		app:layout_constraintStart_toStartOf="parent">
+
+
+		<RelativeLayout
+			android:id="@+id/group_2_ek4"
+			android:layout_marginTop="0dp"
+			android:layout_marginStart="108dp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+
+
+			<RelativeLayout
+				android:id="@+id/group_12_ek4"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+
+				<ImageView
+					android:id="@+id/image_1_ek5"
+					android:src="@drawable/image_1_ek5"
+					android:contentDescription="image_1_ek5"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="49dp"
+					android:layout_height="50dp" />
+
+				<ImageView
+					android:id="@+id/image_2_ek5"
+					android:layout_width="26.03dp"
+					android:layout_height="9.78dp"
+					android:layout_marginStart="12dp"
+					android:layout_marginTop="24dp"
+					android:contentDescription="image_2_ek5"
+					android:src="@drawable/image_2_ek5" />
+
+			</RelativeLayout>
+
+		</RelativeLayout>
+
+		<TextView
+			android:id="@+id/babygage_ek3"
+			android:layout_width="127dp"
+			android:layout_height="40dp"
+			android:layout_gravity="center_horizontal|center"
+			android:layout_marginLeft="-3dp"
+			android:layout_marginTop="11dp"
+			android:gravity="center"
+			android:text="@string/babygage_ek3_string"
+			android:textColor="@color/babygage_color"
+			android:textSize="20sp" />
+
+
+	</RelativeLayout>
+
+
+	<ImageView
+		android:id="@+id/image_5_ek2"
+		android:layout_width="374dp"
+		android:layout_height="593dp"
+		android:contentDescription="image_5_ek2"
+		android:src="@drawable/image_5_ek2"
+		app:layout_constraintBottom_toTopOf="@+id/rectangle_1_ek1"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		app:layout_constraintVertical_bias="0.66999996" />
+
+	<Button
+		android:id="@+id/rectangle_15_ek1"
+		android:background="@drawable/rectangle_15_ek1_shape"
+		android:alpha="0.75"
+		android:text="take a picture"
+		android:textSize="10dp"
+		android:layout_marginStart="14dp"
+		android:layout_marginTop="89dp"
+		android:layout_width="140dp"
+		android:layout_height="27dp"
+		app:layout_constraintTop_toTopOf="parent"
+		app:layout_constraintStart_toStartOf="parent" />
+
+
+	<RelativeLayout
+		android:id="@+id/menu_ek2"
+		android:layout_marginTop="27dp"
+		android:layout_marginStart="25dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		app:layout_constraintTop_toTopOf="parent"
+		app:layout_constraintStart_toStartOf="parent"/>
+
+
+	<View
+		android:id="@+id/rectangle_31"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:background="@drawable/rectangle_31_shape"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent" />
+
+	<!-- this is upload button-->
+
+	<View
+		android:id="@+id/ellipse_1_ek1"
+		android:layout_width="130dp"
+		android:layout_height="130dp"
+		android:layout_marginTop="672dp"
+		android:layout_marginBottom="6dp"
+		android:background="@drawable/ellipse_1_ek1_shape"
+		app:layout_constraintBottom_toTopOf="@+id/rectangle_1_ek1"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		app:layout_constraintVertical_bias="0.0" />
+
+	<View
+		android:id="@+id/Ellipse_2"
+		android:layout_width="120dp"
+		android:layout_height="120dp"
+		android:layout_marginTop="677dp"
+		android:background="@drawable/black_circle"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent" />
+
+
+	<Button
+		android:id="@+id/uploadBtn"
+		android:layout_width="80dp"
+		android:layout_height="80dp"
+		android:background="@drawable/ellipse_3_ek1_shape"
+		android:text="Upload"
+		app:layout_constraintBottom_toBottomOf="@+id/ellipse_1_ek1"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="@+id/ellipse_1_ek1" />
+
+	<Button
+		android:id="@+id/importGalleryBtn"
+		android:layout_width="140dp"
+		android:layout_height="27dp"
+		android:layout_marginStart="258dp"
+		android:layout_marginTop="672dp"
+		android:text="import from gallery"
+		android:textSize="12dp"
+		android:alpha="0.60000002384186"
+		android:background="@drawable/rectangle_14_ek1_shape"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent" />
+
+	<Button
+		android:id="@+id/takePictureBtn"
+		android:layout_width="140dp"
+		android:layout_height="27dp"
+		android:layout_marginStart="258dp"
+		android:layout_marginTop="704dp"
+		android:text="take a picture"
+		android:textSize="12dp"
+		android:alpha="0.60000002384186"
+		android:background="@drawable/_rectangle_15_shape"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
