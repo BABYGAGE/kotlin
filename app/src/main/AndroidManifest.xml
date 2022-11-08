@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-	package="com.example.babygage" >
+    package="com.example.babygage">
 
-	
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".FinancialmainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".intro_activity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="true"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-	<application
-		android:allowBackup="true"
-		android:theme="@style/AppTheme"
-		android:label="@string/app_name" >
-		<activity
-		android:name=".intro_activity"
-		android:configChanges="orientation|keyboardHidden|screenSize"
-		android:label="@string/app_name"
-		android:exported="true"  >
-			<intent-filter>
-				<action android:name="android.intent.action.MAIN" />
-				<category android:name="android.intent.category.LAUNCHER" />
-			</intent-filter>
-		</activity>
-
-        <activity android:name="com.example.babygage.mainpage_household_activity"></activity>
-			<activity android:name="com.example.babygage.mainpage_financial_activity"></activity>
-			<activity android:name="com.example.babygage.mypage_household_activity"></activity>
-			<activity android:name="com.example.babygage.mypage_financial_activity"></activity>
-			<activity android:name="com.example.babygage.household_ledger_activity"></activity>
-			<activity android:name="com.example.babygage.writingdiary_activity"></activity>
-			<activity android:name="com.example.babygage.financial_audit_activity"></activity>
-			<activity android:name="com.example.babygage.completeexcel_activity"></activity>
-			<activity android:name="com.example.babygage.completereceipt_activity"></activity>
-		<activity android:name="com.example.babygage.successful_sign_up_activity"></activity>
-        <activity android:name="com.example.babygage.takepicture_activity"></activity>
-			<activity android:name="com.example.babygage.receipt_activity"></activity>
-	</application>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".intro_select_activity" />
+        <activity android:name=".mainpage_household_activity" />
+        <activity android:name=".mainpage_financial_activity" />
+        <activity android:name=".mypage_household_activity" />
+        <activity android:name=".mypage_financial_activity" />
+        <activity android:name=".household_ledger_activity" />
+        <activity android:name=".writingdiary_activity" />
+        <activity android:name=".financial_audit_activity" />
+        <activity android:name=".completeexcel_activity" />
+        <activity android:name=".completereceipt_activity" />
+        <activity android:name=".successful_sign_up_activity" />
+        <activity android:name=".takepicture_activity" />
+        <activity android:name=".receipt_activity" />
+    </application>
 
 </manifest>
-	
-	

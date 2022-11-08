@@ -102,13 +102,13 @@
 		android:textColor="@color/babygage_color"
 		android:textSize="13sp" />
 
-		<View
-			android:id="@+id/line_15_ek2"
-			android:layout_width="161.03dp"
-			android:layout_height="1dp"
-			android:layout_marginStart="21dp"
-			android:layout_marginTop="116dp"
-			android:background="@drawable/line_15_ek2_shape" />
+	<View
+		android:id="@+id/line_15_ek2"
+		android:layout_width="161.03dp"
+		android:layout_height="1dp"
+		android:layout_marginStart="21dp"
+		android:layout_marginTop="116dp"
+		android:background="@drawable/line_15_ek2_shape" />
 
 	<EditText
 		android:id="@+id/rectangle_25_ek1"
