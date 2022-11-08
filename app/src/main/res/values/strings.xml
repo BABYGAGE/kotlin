@@ -223,7 +223,7 @@
     <string name="put_your_password_again_string">Put your password again</string>
     <string name="babygage_ek10_string">babygage</string>
     <string name="sign_up_ek5_string">Sign Up</string>
-    <string name="welcome_to_our__babygage__service__you_can_use_everything_in_our_service_after_log_in__string">Welcome to our "BABYGAGE" service!You can use everything in our service after log-in.</string>
+    <string name="welcome_to_our__babygage__service__you_can_use_everything_in_our_service_after_log_in__string">Welcome to our "BABYGAGE" service!\nYou can use everything in our service after log-in.</string>
     <string name="successful_sign_up_ek3_string">Successful Sign Up</string>
     <string name="go_to_log_in_page_string">Go to Log-in Page</string>
     <string name="babygage_ek11_string">babygage</string>

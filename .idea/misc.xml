@@ -17,6 +17,11 @@
         <entry key="..\:/BABYGAGE/app/src/main/res/layout/mainpage_household.xml" value="0.1703125" />
         <entry key="..\:/BABYGAGE/app/src/main/res/layout/mypage_financial.xml" value="0.1703125" />
         <entry key="..\:/BABYGAGE/app/src/main/res/layout/takepicture.xml" value="0.1703125" />
+        <entry key="app/src/main/res/layout/activity_financialmain.xml" value="0.3182291666666667" />
+        <entry key="app/src/main/res/layout/activity_introselection.xml" value="0.14270833333333333" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.27870370370370373" />
+        <entry key="app/src/main/res/layout/activity_signup.xml" value="0.27870370370370373" />
+        <entry key="app/src/main/res/layout/successful_sign_up.xml" value="0.3182291666666667" />
       </map>
     </option>
   </component>

@@ -30,7 +30,6 @@
         <activity android:name=".financial_audit_activity" />
         <activity android:name=".completeexcel_activity" />
         <activity android:name=".completereceipt_activity" />
-        <activity android:name=".successful_sign_up_activity" />
         <activity android:name=".takepicture_activity" />
         <activity android:name=".receipt_activity" />
     </application>
